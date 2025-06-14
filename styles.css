@@ -12,14 +12,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: top;
+  align-items: center;
   border: 2px solid grey;
   margin: 5%;
   margin-left: 3%;
   margin-right: 3%;
+  margin-top:6px;
   border-radius: 5%;
   min-width: fit-content;
   width: 94%;
+  height: 80px;
 }
 
 [data-tab-info] {
@@ -33,15 +35,16 @@ body {
 .tabs {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: top;
+  justify-content: right;
   min-width: fit-content;
-  border-bottom: 2px solid grey;
   font-size: 25px;
   color: rgb(0, 0, 0);
   display: flex;
-  margin: 0;
-  height: 20%;
+  padding-left: 40%;
+  margin: 0px;
+  height: 50px;
+  width: fit-content;
+  white-space: nowrap;
 }
 
 .tabs span {
@@ -70,4 +73,14 @@ body {
   margin-left: 3%;
   margin-right: 3%;
   color: rgb(0, 0, 0);
+}
+#logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  margin-right: 70%;
+  width: auto;
+  height: 75px;
+  padding:0%;
+
 }
